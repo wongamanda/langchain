@@ -5,5 +5,5 @@ setup(
     version='0.1',
     packages=['prompts', 'chains', 'chat_models', 'evaluation', 'tools', 'llms', 'document_loaders'],
     include_package_data=True,
-    package_dir={'langchain': 'libs/langchain/langchain'},
+    package_dir={'langchain': 'libs/langchain'},
 )
